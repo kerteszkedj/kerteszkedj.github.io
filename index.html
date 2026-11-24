@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Magyar kerti naptár: havi teendők a kertben | Kertészkedj.hu</title>
+<meta name="description" content="Nyílt, szabadon használható magyar kerti naptár: mit vess, ültess, metssz és takarj hónapról hónapra. Készítette a Kertészkedj.hu szerkesztősége.">
+<link rel="canonical" href="https://kerteszkedj.github.io/">
+<meta property="og:title" content="Magyar kerti naptár: havi teendők a kertben">
+<meta property="og:description" content="Mit vess, ültess, metssz és takarj hónapról hónapra. Nyílt projekt a Kertészkedj.hu szerkesztőségétől.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://kerteszkedj.github.io/">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Magyar kerti naptár: havi teendők a kertben",
+  "inLanguage": "hu",
+  "url": "https://kerteszkedj.github.io/",
+  "author": {"@type": "Organization", "name": "Kertészkedj.hu", "url": "https://kerteszkedj.hu/"},
+  "publisher": {"@type": "Organization", "name": "Kertészkedj.hu", "url": "https://kerteszkedj.hu/"},
+  "license": "https://creativecommons.org/licenses/by/4.0/"
+}
+</script>
+<style>
+  :root { --green:#2f6b3a; --green-l:#e8f1e6; --ink:#1f2a21; --muted:#5b6a5d; --line:#d7e2d4; --bg:#fbfcf8; }
+  * { box-sizing:border-box; }
+  body { margin:0; font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif; color:var(--ink); background:var(--bg); line-height:1.6; }
+  header { background:var(--green); color:#fff; padding:2.2rem 1rem 1.8rem; }
+  header .wrap, main, footer .wrap { max-width:980px; margin:0 auto; padding:0 1rem; }
+  h1 { margin:0 0 .4rem; font-size:clamp(1.6rem,4vw,2.3rem); line-height:1.2; }
+  header p { margin:0; opacity:.92; max-width:680px; }
+  .tools { display:flex; flex-wrap:wrap; gap:.6rem; margin:1.4rem 0 .6rem; }
+  .tools input { flex:1 1 260px; padding:.65rem .8rem; border:1px solid var(--line); border-radius:8px; font-size:1rem; }
+  .chips { display:flex; flex-wrap:wrap; gap:.35rem; margin-bottom:1rem; }
+  .chips button { border:1px solid var(--line); background:#fff; border-radius:999px; padding:.3rem .75rem; font-size:.9rem; cursor:pointer; color:var(--ink); }
+  .chips button.on { background:var(--green); color:#fff; border-color:var(--green); }
+  .month { background:#fff; border:1px solid var(--line); border-radius:12px; padding:1rem 1.2rem; margin:0 0 1rem; }
+  .month h2 { margin:0 0 .5rem; font-size:1.3rem; color:var(--green); }
+  .month.now { border-color:var(--green); box-shadow:0 0 0 2px var(--green-l); }
+  .month.now h2::after { content:" · most"; font-size:.85rem; color:var(--muted); font-weight:500; }
+  ul { margin:0; padding-left:1.1rem; }
+  li { margin:.25rem 0; }
+  .tag { display:inline-block; font-size:.72rem; text-transform:uppercase; letter-spacing:.04em; background:var(--green-l); color:var(--green); border-radius:4px; padding:0 .35rem; margin-right:.35rem; vertical-align:1px; }
+  li a { color:var(--green); }
+  .hidden { display:none; }
+  .note { color:var(--muted); font-size:.92rem; }
+  footer { border-top:1px solid var(--line); margin-top:2rem; padding:1.5rem 0 2.5rem; color:var(--muted); font-size:.92rem; }
+  footer a { color:var(--green); }
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <h1>Magyar kerti naptár: havi teendők a kertben</h1>
+    <p>Mit vess, ültess, metssz és takarj be hónapról hónapra? Egyszerű, kereshető áttekintés házikerteknek, a magyarországi éghajlathoz igazítva. A naptár nyílt: szabadon használhatod és továbbadhatod a forrás megjelölésével.</p>
+  </div>
+</header>
+
+<main>
+  <div class="tools">
+    <input id="q" type="search" placeholder="Keresés a teendők között (pl. paradicsom, metszés, takarás)" aria-label="Keresés a teendők között">
+  </div>
+  <div class="chips" id="chips">
+    <button data-tag="" class="on">Mind</button>
+    <button data-tag="veteményes">Veteményes</button>
+    <button data-tag="gyümölcs">Gyümölcs</button>
+    <button data-tag="dísznövény">Dísznövény</button>
+    <button data-tag="gyep">Gyep</button>
+    <button data-tag="általános">Általános</button>
+  </div>
+  <p class="note">A dátumok tájékoztató jellegűek: a tényleges időpont az adott év időjárásától, a tájegységtől és a talajtól függ. Fagyérzékeny növényt általában csak a fagyosszentek (május 12. és 14. között) után ültess ki.</p>
+
+  <section class="month" data-m="1"><h2>Január</h2><ul>
+    <li data-tag="általános"><span class="tag">általános</span>Nézd át a tavalyi vetőmagokat, és tervezd meg a veteményes idei beosztását. <a href="https://kerteszkedj.hu/meddig-jo-a-tavalyi-vetomag-meglepo-mekkora-kulonbseg-van-a-zoldsegek-kozott/">Meddig jó a tavalyi vetőmag?</a></li>
+    <li data-tag="dísznövény"><span class="tag">dísznövény</span>A nagy hó terhét óvatosan rázd le az örökzöldekről, hogy ne törjenek az ágak.</li>
+    <li data-tag="dísznövény"><span class="tag">dísznövény</span>Ellenőrizd a teleltetett cserepes növényeket: kevés víz, világos, hűvös hely. <a href="https://kerteszkedj.hu/8-hiba-amit-erdemes-elkerulni-a-leander-teleltetesenel/">Hibák a leander teleltetésénél</a></li>
+    <li data-tag="általános"><span class="tag">általános</span>Folytasd a madáretetést, és tarts tavaszig. <a href="https://kerteszkedj.hu/10-teli-vendeg-a-madaretetobe-ezt-szeretik-enni-a-legjobban/">Téli vendégek a madáretetőn</a></li>
+    <li data-tag="gyümölcs"><span class="tag">gyümölcs</span>Nagy hidegben a korán virágzó gyümölcsfák rügyei a legérzékenyebbek. <a href="https://kerteszkedj.hu/minusz-20-foknal-elfagyhat-a-kajszi-rugye-az-alma-joval-tobbet-bir/">Melyik gyümölcsfa mennyi fagyot bír?</a></li>
+  </ul></section>
+
+  <section class="month" data-m="2"><h2>Február</h2><ul>
+    <li data-tag="veteményes"><span class="tag">veteményes</span>A hónap második felében elindíthatod a paprika és a paradicsom palántanevelését világos ablakpárkányon vagy fűtött helyen. <a href="https://kerteszkedj.hu/egy-szelet-paradicsomot-asott-a-cserepbe-ket-het-mulva-tucatnyi-palanta-bujt-elo-belole-igy-nevelhetsz-ingyen-paradicsompalantat/">Ingyen paradicsompalánta egy szeletből</a></li>
+    <li data-tag="gyümölcs"><span class="tag">gyümölcs</span>Fagymentes napokon elkezdheted az almafák és körtefák téli metszését.</li>
+    <li data-tag="dísznövény"><span class="tag">dísznövény</span>Napos, fagyos időben az örökzöldek kiszáradhatnak: fagymentes napon öntözd meg őket. <a href="https://kerteszkedj.hu/telen-nem-a-fagy-hanem-a-kiszaradas-barnitja-meg-az-orokzoldeket/">Miért barnulnak meg télen az örökzöldek?</a></li>
+    <li data-tag="általános"><span class="tag">általános</span>Tisztítsd és élezd meg a szerszámokat a tavaszi munkák előtt.</li>
+  </ul></section>
+
+  <section class="month" data-m="3"><h2>Március</h2><ul>
+    <li data-tag="veteményes"><span class="tag">veteményes</span>Amint a talaj megmunkálható, vethető szabadföldbe a borsó, a retek, a spenót és a sárgarépa.</li>
+    <li data-tag="veteményes"><span class="tag">veteményes</span>Dughagymát és fokhagymát is ültethetsz, ha ősszel elmaradt.</li>
+    <li data-tag="gyümölcs"><span class="tag">gyümölcs</span>Fejezd be a gyümölcsfák metszését, mielőtt a rügyek megindulnak.</li>
+    <li data-tag="gyep"><span class="tag">gyep</span>Gereblyézd át a gyepet, és pótold a kiritkult foltokat. <a href="https://kerteszkedj.hu/ennyibe-kerul-2026-ban-egy-500-negyzetmeteres-pazsit-vetve-gyepszonyeggel-es-mufuvel-kiszamoltuk/">Mennyibe kerül egy új pázsit?</a></li>
+    <li data-tag="dísznövény"><span class="tag">dísznövény</span>A teleltetett muskátlit és fuksziát fokozatosan szoktasd vissza a fényhez és a vízhez. <a href="https://kerteszkedj.hu/ez-a-legjobb-hely-a-fukszianak-telen-a-kerteszek-szerint-igy-tavasszal-ujra-kihajt/">Így hajt ki újra a fukszia</a></li>
+  </ul></section>
+
+  <section class="month" data-m="4"><h2>Április</h2><ul>
+    <li data-tag="veteményes"><span class="tag">veteményes</span>Ültesd el a korai burgonyát, és vesd a céklát, a salátát és a petrezselymet.</li>
+    <li data-tag="veteményes"><span class="tag">veteményes</span>Fagyérzékeny palántát (paradicsom, paprika, uborka) még ne ültess ki, csak edzd őket napközben a szabadban.</li>
+    <li data-tag="gyep"><span class="tag">gyep</span>Jó idő a fűmagvetésre és a gyep első nyírására.</li>
+    <li data-tag="gyümölcs"><span class="tag">gyümölcs</span>Virágzáskor kerüld a permetezést, hogy a beporzó rovarokat ne zavard.</li>
+  </ul></section>
+
+  <section class="month" data-m="5"><h2>Május</h2><ul>
+    <li data-tag="veteményes"><span class="tag">veteményes</span>A fagyosszentek után kiültethető a paradicsom, a paprika és a padlizsán palántája.</li>
+    <li data-tag="veteményes"><span class="tag">veteményes</span>Vethető a bab, az uborka, a cukkini és a tök szabadföldbe.</li>
+    <li data-tag="dísznövény"><span class="tag">dísznövény</span>Kikerülhetnek az erkélyre és a teraszra a teleltetett cserepes növények.</li>
+    <li data-tag="általános"><span class="tag">általános</span>Kezdd el a mulcsozást: a takart talaj lassabban szárad ki a nyári melegben.</li>
+  </ul></section>
+
+  <section class="month" data-m="6"><h2>Június</h2><ul>
+    <li data-tag="veteményes"><span class="tag">veteményes</span>Öntözz ritkábban, de alaposan, inkább reggel.</li>
+    <li data-tag="veteményes"><span class="tag">veteményes</span>Szedd a korai burgonyát és a borsót, a helyükre másodvetésként mehet bab vagy saláta.</li>
+    <li data-tag="gyümölcs"><span class="tag">gyümölcs</span>Az eper szedése után vágd vissza az elszáradt leveleket, és trágyázd meg az ágyást.</li>
+    <li data-tag="általános"><span class="tag">általános</span>A konyhakerti hulladékot gyűjtsd komposztba. <a href="https://kerteszkedj.hu/megeri-e-ma-sajat-konyhakertet-tartani-30-m%c2%b2-evi-17-56-ezer-forintot-sporol-2026-ban/">Megéri-e saját konyhakertet tartani?</a></li>
+  </ul></section>
+
+  <section class="month" data-m="7"><h2>Július</h2><ul>
+    <li data-tag="veteményes"><span class="tag">veteményes</span>Kacsold a paradicsomot, és kötözd fel a nehéz terméses hajtásokat.</li>
+    <li data-tag="veteményes"><span class="tag">veteményes</span>Neveld elő az őszi káposztafélék (kelkáposzta, karfiol, brokkoli) palántáit.</li>
+    <li data-tag="általános"><span class="tag">általános</span>A nyári gyümölcs- és zöldséghéj a komposztban jól hasznosul. <a href="https://kerteszkedj.hu/a-dinnyehej-a-komposztban-kincs-lehet-ezt-keverd-hozza-mielott-a-kupacra-kerul/">Dinnyehéj a komposztban</a></li>
+    <li data-tag="gyep"><span class="tag">gyep</span>Kánikulában a füvet hagyd hosszabbra, így kevésbé ég ki.</li>
+  </ul></section>
+
+  <section class="month" data-m="8"><h2>Augusztus</h2><ul>
+    <li data-tag="gyümölcs"><span class="tag">gyümölcs</span>Ültess új eperágyást, és figyelj a tő magasságára. <a href="https://kerteszkedj.hu/egy-apro-ultetesi-hiba-miatt-tavaszra-elpusztulhat-az-eper-erre-figyelj-a-tovenel/">Az eperültetés leggyakoribb hibája</a></li>
+    <li data-tag="veteményes"><span class="tag">veteményes</span>Vethető az őszi saláta, a spenót és a retek.</li>
+    <li data-tag="általános"><span class="tag">általános</span>Itt a befőzés és a tartósítás ideje.</li>
+  </ul></section>
+
+  <section class="month" data-m="9"><h2>Szeptember</h2><ul>
+    <li data-tag="veteményes"><span class="tag">veteményes</span>Vesd el a teleltetésre szánt salátát. <a href="https://kerteszkedj.hu/teli-vajfej-salata-termesztese-es-bemutatasa/">Téli vajfej saláta termesztése</a></li>
+    <li data-tag="gyep"><span class="tag">gyep</span>Az ősz eleje jó idő a gyepvetésre és a kiritkult foltok pótlására.</li>
+    <li data-tag="veteményes"><span class="tag">veteményes</span>Szedd fel és szárítsd a hagymát, a burgonyát pedig hűvös, sötét helyen tárold.</li>
+  </ul></section>
+
+  <section class="month" data-m="10"><h2>Október</h2><ul>
+    <li data-tag="veteményes"><span class="tag">veteményes</span>Ültesd el a fokhagymát és az őszi dughagymát.</li>
+    <li data-tag="gyümölcs"><span class="tag">gyümölcs</span>Lombhullás után ültethetők a szabadgyökerű gyümölcsfák, a telekhatártól előírt távolságra. <a href="https://kerteszkedj.hu/ezert-nem-ultethetsz-barmit-a-kerites-melle-ennyi-meterre-kell-lennie-a-fanak-a-szomszed-telketol/">Milyen messze legyen a fa a kerítéstől?</a></li>
+    <li data-tag="gyümölcs"><span class="tag">gyümölcs</span>Átültetheted az áfonyát. <a href="https://kerteszkedj.hu/hogyan-ultessuk-at-az-afonyat-a-munkat-eso-utanra-tervezd/">Így ültesd át az áfonyát</a></li>
+    <li data-tag="dísznövény"><span class="tag">dísznövény</span>Az első fagyok előtt vidd be a muskátlit és a leandert. <a href="https://kerteszkedj.hu/melyik-a-jobb-hely-a-muskatlinak-telen-a-pince-vagy-a-hideg-lepcsohaz/">Hol teleljen a muskátli?</a></li>
+  </ul></section>
+
+  <section class="month" data-m="11"><h2>November</h2><ul>
+    <li data-tag="általános"><span class="tag">általános</span>A lehullott lombot ne dobd ki: az ágyáson takarásként és tápanyagként hasznosul. <a href="https://kerteszkedj.hu/mindenki-zsakba-gyujti-a-lehullott-levelet-pedig-az-agyason-hagyva-tavaszra-ingyen-tragya-lesz-belole/">Lomb az ágyáson</a></li>
+    <li data-tag="veteményes"><span class="tag">veteményes</span>Takard be az ágyásokat, amikor a talaj felső rétege már megfagyott. <a href="https://kerteszkedj.hu/falevel-alulra-fureszpor-felulre-igy-takard-be-novemberben-az-agyasokat/">Így takard be az ágyásokat</a></li>
+    <li data-tag="gyümölcs"><span class="tag">gyümölcs</span>Szedd le a fán maradt, összeaszott gyümölcsöt, mert betegségek telelhetnek át benne. <a href="https://kerteszkedj.hu/rancos-gyumolcs-log-a-fan-most-kell-leszedni-tavasszal-mar-keso/">Miért kell leszedni a ráncos gyümölcsöt?</a></li>
+    <li data-tag="általános"><span class="tag">általános</span>Tisztán és szárazon tedd el a szerszámokat. <a href="https://kerteszkedj.hu/8-hiba-a-kerti-szerszamok-teli-eltevesenel-amitol-tavaszra-rozsdasak/">Hibák a szerszámok téli eltevésénél</a></li>
+  </ul></section>
+
+  <section class="month" data-m="12"><h2>December</h2><ul>
+    <li data-tag="veteményes"><span class="tag">veteményes</span>Ha a talaj még nem fagyott át, a fokhagyma még elültethető. <a href="https://kerteszkedj.hu/decemberben-is-elultetheto-a-fokhagyma-ha-a-talaj-meg-nem-fagyott-at/">Fokhagymaültetés decemberben</a></li>
+    <li data-tag="dísznövény"><span class="tag">dísznövény</span>A fagyérzékeny kerti növényeket a komoly fagyok előtt takard be. <a href="https://kerteszkedj.hu/hidegebb-tel-johet-6-kerti-noveny-amit-most-kell-betakarni-mert-minusz-10-fok-alatt-elfagy/">Ezeket a növényeket védd most</a></li>
+    <li data-tag="veteményes"><span class="tag">veteményes</span>Szüreteld a fagyban is kint maradó zöldségeket. <a href="https://kerteszkedj.hu/paszternak-kelbimbo-es-3-masik-zoldseg-ami-a-fagy-utan-lesz-meg-finomabb/">Zöldségek, amelyek a fagy után finomabbak</a></li>
+    <li data-tag="dísznövény"><span class="tag">dísznövény</span>Ha kiültetnéd a karácsonyfát, gyökereset válassz. <a href="https://kerteszkedj.hu/sokan-elkovetik-ezt-a-hibat-karacsonyfa-vasarlaskor-tavasszal-mar-hiaba-probaljak-megmenteni-a-fenyot/">Karácsonyfa-vásárlás kiültetéshez</a></li>
+    <li data-tag="általános"><span class="tag">általános</span>A téli teendők részletesen: <a href="https://kerteszkedj.hu/11-teli-munka-a-kertben-amit-ha-most-elvegzel-jovore-roskadozni-fog-a-vetemenyes/">11 téli munka a kertben</a></li>
+  </ul></section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p>Készítette a <a href="https://kerteszkedj.hu/">Kertészkedj.hu</a> szerkesztősége. További kerti tanácsok: <a href="https://kerteszkedj.hu/otthon-kert/">Otthon, kert</a> · <a href="https://kerteszkedj.hu/zoldsegek/">Zöldségek</a> · <a href="https://kerteszkedj.hu/gyumolcsok/">Gyümölcsök</a> · <a href="https://kerteszkedj.hu/szobanovenyek/">Szobanövények</a></p>
+    <p>A naptár szövege <a href="https://creativecommons.org/licenses/by/4.0/deed.hu">CC BY 4.0</a> licenc alatt szabadon felhasználható a forrás megjelölésével. Hibát találtál? Írj nekünk: <a href="https://kerteszkedj.hu/kapcsolat/">Kapcsolat</a></p>
+  </div>
+</footer>
+
+<script>
+  (function () {
+    var m = new Date().getMonth() + 1;
+    var cur = document.querySelector('.month[data-m="' + m + '"]');
+    if (cur) cur.classList.add('now');
+    var q = document.getElementById('q'), tag = '';
+    function apply() {
+      var t = q.value.trim().toLowerCase();
+      document.querySelectorAll('.month').forEach(function (sec) {
+        var any = false;
+        sec.querySelectorAll('li').forEach(function (li) {
+          var ok = (!tag || li.dataset.tag === tag) && (!t || li.textContent.toLowerCase().indexOf(t) > -1);
+          li.classList.toggle('hidden', !ok); if (ok) any = true;
+        });
+        sec.classList.toggle('hidden', !any);
+      });
+    }
+    q.addEventListener('input', apply);
+    document.getElementById('chips').addEventListener('click', function (e) {
+      if (e.target.tagName !== 'BUTTON') return;
+      document.querySelectorAll('#chips button').forEach(function (b) { b.classList.remove('on'); });
+      e.target.classList.add('on'); tag = e.target.dataset.tag; apply();
+    });
+  })();
+</script>
+</body>
+</html>
